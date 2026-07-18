@@ -8,7 +8,7 @@
     "build": "tsc -p tsconfig.json",
     "start": "node dist/server.js",
     "lint": "eslint src --ext .ts",
-    "seed": "ts-node src/scripts/seed.ts"
+    "seed": "ts-node src/scripts/seed.ts", "set-admin-password": "ts-node src/scripts/setAdminPassword.ts"
   },
   "dependencies": {
     "@mux/mux-node": "^14.1.1",
